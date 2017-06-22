@@ -1,0 +1,30 @@
+tr:nth-child(3n) {
+    border-bottom-style: double;
+    border-bottom-color: black;
+    border-bottom-width: 2px;
+}
+
+.cell{
+    font-size: 16px;
+    border: 1px solid grey;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    
+    -webkit-transition: all 250ms;
+       -moz-transition: all 250ms;
+         -o-transition: all 250ms;
+            transition: all 250ms;
+}
+
+.cell.active {
+    color: blueviolet;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.cell:nth-child(3n) {
+    border-right-style: double;
+    border-right-color: black;
+    border-right-width: 2px;
+}
